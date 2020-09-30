@@ -19,7 +19,6 @@ int main(){
     printHeap(h);
 
     deleteHeap(h);
-    free(h);
 
     return 0;
 }

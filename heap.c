@@ -16,6 +16,7 @@ tHeap* newHeap(){
 }
 
 void deleteHeap(tHeap* h){
+    free(h->heap);
     free(h);
     return;
 }
