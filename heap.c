@@ -108,6 +108,7 @@ void printHeap(tHeap* h){
     printf("\tCapacidad: %d\n\tnElems: %d\n", h->capacidad, h->nElems);
     printf("\telems: [");
     for(int i = 1; i < h->nElems; i++) printf("%d, ", h->heap[i]);
-    printf("%d]\n", h->heap[h->nElems]);
+    if (h->nElems > 0) printf("%d", h->heap[h->nElems]);
+    printf("]\n");
     return;
 }
