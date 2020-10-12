@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "heap.h"
+#include "heap.c"
 
 int main(){
     int numeros[] = {4,3,2,1,2,4,6,7,8,9};
